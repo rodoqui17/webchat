@@ -1,7 +1,7 @@
 {
   "name": "botejemplo",
   "version": "1.0.0",
-  "description": "Servidor google",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
