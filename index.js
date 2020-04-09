@@ -5,7 +5,7 @@ var request = require('request');
 var app = express();
 
 var port = process.env.PORT || 3000;
-var ip = process.env.IP || "127.0.0.1";
+var ip = process.env.IP || "localhost";
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
