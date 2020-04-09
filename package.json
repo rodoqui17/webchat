@@ -16,7 +16,8 @@
     "materialize-clockpicker": "^1.0.1",
      "mysql": ">=0.0.0",
      "pusher": ">=0.0.0",
-     "googleapis": ">=0.0.0"
+     "googleapis": ">=0.0.0",
+     "ngrok": "^3.2.7"
 
     
   }
