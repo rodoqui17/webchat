@@ -54,14 +54,14 @@ app.post('/', function (req, res) {
     }
 });
 
-var server = require('http').Server(app);
-var port = process.env.port || 3000;
-server.listen(port, function (req, res) {
-   console.log('Listening on port %d', server.address().port);
-});
+//var server = require('http').Server(app);
+//var port = process.env.port || 3000;
+//server.listen(port, function (req, res) {
+//   console.log('Listening on port %d', server.address().port);
+//});
 //app.listen(port, ip);
 
-//(async function () {
-//const url = await ngrok.connect(port);
-  //  console.log(url);
-//})();
+(async function () {
+const url = await ngrok.connect(port);
+  console.log(url);
+})();
